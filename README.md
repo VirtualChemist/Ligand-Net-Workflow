@@ -69,7 +69,7 @@ As shown on the image, the code has found 295 ligands for that specific protein,
 
 If you have the file with the active ligands but not with the decoys, then you may generate those by using the [DUD-E website](http://dude.docking.org/generate) or the DecoyFinder software. If you choose the first, make sure that the ligands are shown in SMILES at the beginning of each line (as shown on the website). If you decide to use the DecoyFinder software, follow the instructions on the website and open the GUI by typing `python decoy_finder.py` in your terminal. Once opened, select the actives file **in `.sdf` format** as input. Where it says "Select local files...", change it to "ZINC all", and click the "add" button. Now, select the options button and select the option "Molecular descriptor based decoys". Go back to the "Find" button, and finally type the path where you want the output file. We recommend to put it where you want your decoys to be tested in this workflow. **Remember to give the same name to your decoys files as it is in your active file**. You should have something like this:
 
-<img src="https://github.com/dcastaneda5/Ligand-Net-Workflow/blob/master/DecoyFinder_GUI.png" height="300">
+<img src="https://github.com/dcastaneda5/Ligand-Net-Workflow/blob/master/DecoyFinder_GUI.png" height="400">
 ## Running the tests
 
 ## Authors
