@@ -17,7 +17,6 @@ We need you to have the following in your local computer:
 * Python 3.5 or above
 * rdkit 
 * tqdm
-* numpy
 * sklearn
 * mayachemtools
 * A folder looking like this:
@@ -34,7 +33,19 @@ In case you don't have a file for decoys (either in `.txt` or `.sdf`), you may d
 If you don't know how to install any of these packages/modules, please refer to the **Installation** section (below).
 ## Installation
 First, we need to create a Conda python environment. For this, follow the next steps:
-- as;fkas
+1. Install Anaconda 3 from [here](https://www.anaconda.com/download/#linux)
+2. Create a new python environment in your terminal:
+`conda create -n <env_name> python=3.5 anaconda
+source activate <env_name>`
+(where <env_name> is whatever name you want to give your environment).
+
+For the installation of the remaining packages/modules, keep working in your terminal with the activated environment. Then do:
+3. `conda install -c rdkit rdkit`
+4. `conda install -c conda-forge tqdm`
+5. `conda install -c anaconda scikit-learn`
+6. Install [mayachemtools](http://www.mayachemtools.org/Download.html) and copy the directory in the folder you created with the other directories shown on the previous image. Once untared and unzipped, you should be able to move to that directory (i.e. cd /Users/Daniel/Desktop/ligandnet/mayachemtools/). Inside said folder you should have something like this:
+
+
 
 ## Fetching Ligands and Decoys
 
