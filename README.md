@@ -28,7 +28,7 @@ If the files for the decoys and actives do not have the same name, the program w
 
 In case you don't have a file for the active ligands, we recommend you running the `looking_actives.py` code found in this repository. Said code needs an accession number (which you can find in the [Pharos website](https://pharos.nih.gov/idg/targets)) of the desired protein. To see how to run this code, please refer to our **Fetching Ligands and Decoys** section.
 
-In case you don't have a file for decoys (either in `.txt` or `.sdf`), you may download them through the [DUD-E website decoy generator](http://dude.docking.org/generate) or by using the [DecoyFinder software](http://urvnutrigenomica-ctns.github.io/DecoyFinder/#Downloads_). The latter uses the ZINC database to find a specific number of decoys set by the user; to see how to use it, please refer to our **Fetching Ligands and Decoys** section.
+If you don't have a file for decoys (either in `.txt` or `.sdf`), you may download them through the [DUD-E website decoy generator](http://dude.docking.org/generate) or by using the [DecoyFinder software](http://urvnutrigenomica-ctns.github.io/DecoyFinder/#Downloads_). The latter uses the ZINC database to find a specific number of decoys set by the user; to see how to use it, please refer to our **Fetching Ligands and Decoys** section.
 
 If you don't know how to install any of these packages/modules, please refer to the **Installation** section (below).
 
@@ -37,10 +37,10 @@ First, we need to create a Conda python environment. For this, follow the next s
 1. Install Anaconda 3 from [here](https://www.anaconda.com/download/#linux)
 2. Create a new python environment in your terminal:
 `conda create -n <env_name> python=3.5 anaconda
-source activate <env_name>`
-(where <env_name> is whatever name you want to give your environment).
+source activate <env_name>` (where <env_name> is whatever name you want to give your environment).
 
-For the installation of the remaining packages/modules, keep working in your terminal with the activated environment. Then do:
+For the installation of the remaining packages/modules, keep working in your terminal with the activated environment. 
+Then do:
 3. `conda install -c rdkit rdkit` 
 4. `conda install -c conda-forge tqdm` 
 5. `conda install -c anaconda scikit-learn` 
