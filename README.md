@@ -61,6 +61,9 @@ If you don't have any ligands you may visit the [Pharos website](https://pharos.
 
 <img src="https://github.com/dcastaneda5/Ligand-Net-Workflow/blob/master/pharos_website.png" height="300">
 
+Once you have the accession number, you should run the `looking_actives.py` script on your terminal. To run it, type the following: `python looking_actives.py -i <accession_number>`. Following the thromboxane A2 receptor example, the user should type `python looking_actives.py -i P21731`. After that, the terminal should look like this:
+
+<img src="https://github.com/dcastaneda5/Ligand-Net-Workflow/blob/master/actives_found.png" height="200">
 
 ## Running the tests
 
