@@ -73,6 +73,9 @@ If you have the file with the active ligands but not with the decoys, then you m
 ## Running the tests
 
 ## Authors
+Daniel Castaneda Mogollon, Dewan Shrestha, Md Mahmudulla Hassan, Denise Cano, Suman Sirimulla.
+
+See also the list of [contributors]( who made this project possible.
 
 ## Contributions
 
