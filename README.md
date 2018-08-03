@@ -27,6 +27,7 @@ The actives folder should contain at least one `.txt` or `.sdf` file. The decoys
 If the files for the decoys and actives do not have the same name, the program will not be able to generate a machine learning model.
 
 Please create a folder called 'actives' and another folder called 'decoys' inside the fingerprints folder. After you do it, you should have something like this:
+
 <img src="https://github.com/dcastaneda5/Ligand-Net-Workflow/blob/master/inside_fingerprints.png" height="200">
 
 In case you don't have a file for the active ligands, we recommend you running the `looking_actives.py` code found in this repository. Said code needs an accession number (which you can find in the [Pharos website](https://pharos.nih.gov/idg/targets)) of the desired protein. To see how to run this code, please refer to our **Fetching Ligands and Decoys** section.
