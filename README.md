@@ -72,16 +72,12 @@ If you have the file with the active ligands but not with the decoys, then you m
 <img src="https://github.com/dcastaneda5/Ligand-Net-Workflow/blob/master/DecoyFinder_GUI.png" height="400">
 ## Running the tests
 
+## Contributing
+If you wish to contribute, submit pull requests, or read more about our code of conduct, please read [contributing.md](https://github.com/dcastaneda5/Ligand-Net-Workflow/blob/master/contributing.md)
 ## Authors
-Daniel Castaneda Mogollon, Dewan Shrestha, Md Mahmudulla Hassan, Denise Cano, Suman Sirimulla.
+Daniel Castaneda Mogollon, Dewan Shrestha, Md Mahmudulla Hassan, Suman Sirimulla.
 
-See also the list of [contributors]( who made this project possible.
-
-## Contributions
+See also the list of [contributors](https://github.com/dcastaneda5/Ligand-Net-Workflow/blob/master/contributions) who made this project possible.
 
 ## Acknowledgments
-
-
-
-
-
+We would like to thank everyone at the Sirimulla Research Lab for their effort and support throughout the project. We thank Denise Cano and Govinda KC for generating decoys and running the active/decoys fingerprints. We would also like to thank Dishja Ganjegunte for generating decoys throughout the project.
