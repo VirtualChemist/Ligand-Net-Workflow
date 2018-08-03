@@ -26,6 +26,9 @@ We need you to have the following in your local computer:
 The actives folder should contain at least one `.txt` or `.sdf` file. The decoys folder should contain at least one `.txt` or `.sdf` file as well. Each protein **MUST** have a decoys and an actives file **WITH THE _SAME_ NAME** but found in different folders, for example: /Users/Daniel/Desktop/ligand_net/actives/thromboxane_a2_receptor.txt **AND** /Users/Daniel/Desktop/ligand_net/decoys/thromboxane_a2_receptor.txt
 If the files for the decoys and actives do not have the same name, the program will not be able to generate a machine learning model.
 
+Please create a folder called 'actives' and another folder called 'decoys' inside the fingerprints folder. After you do it, you should have something like this:
+<img src="https://github.com/dcastaneda5/Ligand-Net-Workflow/blob/master/inside_fingerprints.png" height="200">
+
 In case you don't have a file for the active ligands, we recommend you running the `looking_actives.py` code found in this repository. Said code needs an accession number (which you can find in the [Pharos website](https://pharos.nih.gov/idg/targets)) of the desired protein. To see how to run this code, please refer to our **Fetching Ligands and Decoys** section.
 
 If you don't have a file for decoys (either in `.txt` or `.sdf`), you may download them through the [DUD-E website decoy generator](http://dude.docking.org/generate) or by using the [DecoyFinder software](http://urvnutrigenomica-ctns.github.io/DecoyFinder/#Downloads_). The latter uses the ZINC database to find a specific number of decoys set by the user; to see how to use it, please refer to our **Fetching Ligands and Decoys** section.
