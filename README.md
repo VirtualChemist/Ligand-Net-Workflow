@@ -44,7 +44,10 @@ Then do:
 1. `conda install -c rdkit rdkit` 
 2. `conda install -c conda-forge tqdm` 
 3. `conda install -c anaconda scikit-learn` 
-4. Install [mayachemtools](http://www.mayachemtools.org/Download.html) and copy the directory in the folder you created with the other directories shown on the previous image. Once untared and unzipped, you should be able to move to that directory (i.e. cd /Users/Daniel/Desktop/ligandnet/mayachemtools/). Inside said folder you should have something like this:
+4. Install [mayachemtools](http://www.mayachemtools.org/Download.html) and copy the directory in the folder you created with the other directories shown on the previous image. Once untared and unzipped, you should be able to move to that directory (i.e.`1cd /Users/Daniel/Desktop/ligandnet/mayachemtools/`). Inside said folder you should have something like this:
+
+<img src="https://github.com/dcastaneda5/Ligand-Net-Workflow/blob/master/maya.png" height="240">
+
 
 
 
