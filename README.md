@@ -41,10 +41,10 @@ source activate <env_name>` (where <env_name> is whatever name you want to give 
 
 For the installation of the remaining packages/modules, keep working in your terminal with the activated environment. 
 Then do:
-3. `conda install -c rdkit rdkit` 
-4. `conda install -c conda-forge tqdm` 
-5. `conda install -c anaconda scikit-learn` 
-6. Install [mayachemtools](http://www.mayachemtools.org/Download.html) and copy the directory in the folder you created with the other directories shown on the previous image. Once untared and unzipped, you should be able to move to that directory (i.e. cd /Users/Daniel/Desktop/ligandnet/mayachemtools/). Inside said folder you should have something like this:
+1. `conda install -c rdkit rdkit` 
+2. `conda install -c conda-forge tqdm` 
+3. `conda install -c anaconda scikit-learn` 
+4. Install [mayachemtools](http://www.mayachemtools.org/Download.html) and copy the directory in the folder you created with the other directories shown on the previous image. Once untared and unzipped, you should be able to move to that directory (i.e. cd /Users/Daniel/Desktop/ligandnet/mayachemtools/). Inside said folder you should have something like this:
 
 
 
